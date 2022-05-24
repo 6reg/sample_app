@@ -1,24 +1,27 @@
-# README
+# Sample app made with pure ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
+Clone the repo - 
+```
+$ git clone https://github.com/6reg/sample_app
+$ cd sample_app
+```
+Install the gems - 
+1) Get versions: 
+```
+$ cat .ruby-version
+<Ruby version number>
+$ tail -n1 Gemfile.lock
+    <Bundler version number>
+```
+2) Install Ruby with [*RVM*](https://rvm.org):
+```
+$ rvm get stable
+$ rvm install <Ruby version number>
+$ rvm --default use <Ruby version number>
+```
+3) Install Bundler:
+```
+$ gem install bundler -v <version number>
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
